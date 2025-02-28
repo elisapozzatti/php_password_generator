@@ -7,10 +7,25 @@
 </head>
 <body>
     <form action="password.php" method="POST">
-        <label for="username">Nome utente</label>
-        <input type="text" id="username" name="username">
-        <label for="password">Lunghezza password</label>
-        <input type="number" id="password" name="password">
+
+        <label for="username">Nome utente</label><br>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">Lunghezza password</label><br>
+        <input type="number" id="password" name="password"><br>
+
+        <input type="checkbox" id="min" name="min">
+        <label for="min">lettere minuscole</label><br>
+
+        <input type="checkbox" id="mai" name="mai">
+        <label for="mai">LETTERE MAIUSCOLE</label><br>
+
+        <input type="checkbox" id="num" name="num">
+        <label for="num">Numeri</label><br>
+
+        <input type="checkbox" id="spec" name="spec">
+        <label for="spec">Caratteri speciali</label><br>
+
         <button type="submin">Invia</input>
     </form>
 </body>
