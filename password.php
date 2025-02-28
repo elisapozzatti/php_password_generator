@@ -1,7 +1,9 @@
 <?php
 
 function getRandomString($n) {
+
     $characters = '';
+
     #checkbox min selezionata
     if (isset($_POST['min']) && $_POST['min'] == "on") {
         $characters = $characters.'abcdefghijklmnopqrstuvwxyz';
@@ -51,6 +53,14 @@ function getRandomString($n) {
 </head>
 <body>
     <h2>Ciao, <?php echo $_POST['username']?></h2>
-    <p>La tua password sicura è: <?php echo getRandomString($_POST['password']) ?></p>
+    <p>La tua password sicura è:</p>
+    <p id="pass"><?php echo getRandomString($_POST['password']) ?></p>
+    <button onclick="copiaTesto()">Copia password</button>
+    <script>
+        function copiaTesto() {
+            let testo = document.getElementById("pass").innerText;
+            navigator.clipboard.writeText(testo);
+        }
+    </script>
 </body>
 </html>
