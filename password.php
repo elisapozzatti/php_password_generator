@@ -21,7 +21,7 @@ function getRandomString($n) {
     
     #checkbox spec selezionata
     if (isset($_POST['spec']) && $_POST['spec'] == "on") {
-        $characters = $characters.'!#$%&()*+,-./:;<=>?@[\]^_`{|}~';
+        $characters = $characters.'!#$%&()*+,-./:;=?@[\]^_`{|}~';
     }
 
     #nessuna checkbox selezionata
