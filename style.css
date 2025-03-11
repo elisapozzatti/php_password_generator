@@ -1,0 +1,27 @@
+html, body{
+    background-color: indianred;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerform{
+    border-radius: 5px; 
+    border: 10px dashed saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 50%;
+}
+.checkbox{
+    display: flex;
+    gap: 5px;
+}
+.button{
+    background-color: saddlebrown;
+    border: saddlebrown;
+    height: 20px;
+}
