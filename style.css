@@ -14,7 +14,6 @@ html, body{
     align-items: center;
     flex-direction: column;
     padding: 10px 0px;
-    width: 50%;
 }
 .checkbox{
     display: flex;
@@ -24,4 +23,10 @@ html, body{
     background-color: saddlebrown;
     border: saddlebrown;
     height: 20px;
+}
+header{
+    height: 20%;
+}
+footer{
+    height: 20%;
 }
