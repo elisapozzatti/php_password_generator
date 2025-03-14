@@ -5,6 +5,9 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .containerform{
     border-radius: 5px; 
@@ -23,10 +26,15 @@ html, body{
     background-color: saddlebrown;
     border: saddlebrown;
     height: 20px;
+    font-family: Verdana;
 }
-header{
+.header{
     height: 20%;
+    width: 100%;
+    font-family: Verdana;
 }
-footer{
+.footer{
     height: 20%;
+    width: 100%;
+    font-family: Verdana;
 }

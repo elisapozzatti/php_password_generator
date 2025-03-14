@@ -8,7 +8,7 @@
     <title>password generator</title>
 </head>
 <body>
-    <header><?php require "./partials/header.php"; ?></header>
+    <header class="header"><?php require "./partials/header.php"; ?></header>
     <form action="password.php" method="POST" class="containerform">
 
         <label for="username">Nome utente</label><br>
@@ -39,6 +39,6 @@
 
         <button class="button" type="submin">Invia</input>
     </form>
-    <footer><?php require "./partials/footer.php"; ?><footer>
+    <footer class="footer"><?php require "./partials/footer.php"; ?><footer>
 </body>
 </html>
